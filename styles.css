@@ -1,0 +1,58 @@
+
+*{
+    margin: 10px;
+}
+
+.cabecera{
+    justify-content: space-between;
+    display: flex;
+}
+
+.linea{
+    display: flex;
+}
+
+.buscar{
+    display: flex;
+    justify-content: end;
+    align-self: flex-end;
+    border-radius: 5em;
+}
+
+
+.a:link, .a:visited,  .a:hover, .a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+.desactivado{
+    color: grey;
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}
+
+
+
+
+.boton{
+    margin-left: 5px;
+}
+
+
+#tarjetas{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5px;
+}
+
+img{
+    padding-right: 20px;
+    height: 135px;
+}
+
+.act{
+    color: grey;
+    font-size:small;
+}
